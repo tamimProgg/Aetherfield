@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Manrope:wght@200..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+ /* background color */
+  --color-black: #000;
+  --color-darkGray: #6C6C6C;
+  --color-mediumGray: #DBE0EC;
+  --color-lightGray: #F6F8FB;
+  --color-white: #fff;
+  --color-link: #2683EB;
+  --color-yellow: #FFF546;
+  --color-brown: #66640F;
+
+  /* Custom font */
+  --font-manrope: "Manrope", sans-serif;
+  --font-sourceSerif4: "Source Serif 4", serif;
+  --font-radioCanadaBig: "Radio Canada Big", sans-serif;
+  --font-geistMono: "Geist Mono", monospace;
+}
