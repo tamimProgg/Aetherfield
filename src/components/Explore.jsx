@@ -31,8 +31,8 @@ const Explore = () => {
         <h1 className="text-center font-radioCanadaBig text-3xl sm:text-5xl">Everything you need to measure,<span className="block leading-15">
          model, and act on sustainability</span></h1>
 
-         <div className='flex flex-col lg:flex-row gap-3 py-12'>
-            <div className='p-2 sm:p-0'>
+         <div className='flex flex-col lg:flex-row gap-3 py-12 px-2 sm:px-0' >
+            <div >
                 <img src= {exploreImage} alt="" />
             </div>
 
